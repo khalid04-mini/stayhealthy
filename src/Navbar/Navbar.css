@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.head{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 7px 10px 7px;
+  height: 55px;
+}
+
+
+.logo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul{
+    display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.links ul li{
+    padding: 0 9px 0 9px;
+}
+
+.links ul li a{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.links ul li a.btn-head{
+    background-color: white;
+    border: 2px solid #007bff;
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 18px;
+}

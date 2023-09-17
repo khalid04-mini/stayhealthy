@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.signup{
+    width: 28%;
+    margin: 90px auto;
+    background-color: #F4F4F4;
+    height: 700px;
+}
+.signup-title{
+    padding-top: 30px;
+
+}
+.signup-title h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.signup-text{
+    margin: 20px 0 25px 0;
+}
+.signup-text h4{
+   font-weight: 500;
+   text-align: center;
+}
+.signup-text h4 a{
+    text-decoration: none;
+    color: #007bff;
+   }
+
+
+.signup-form input,select{
+    width: 85%;
+    margin: 7px 0 10px 0;
+    /* height: 40px; */
+    height: 30px;
+    padding-left: 8px;
+}
+
+.signup-form .role label{
+    width: 100;
+}
+.signup-form .role select{
+    width: 88%;
+
+}
+.signup-form .input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form .role,.name,.phone,.email,.password{
+    margin-top: 10px;
+    /* text-align: center; */
+}
+
+.signup-form label{
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 20px;
+    /* text-align: left; */
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-form{
+    width: 88%;
+    margin-top: 15px;
+}
+
+.btns button{
+    width: 100%;
+    height: 45px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.btns button.sub{
+   color: white;
+   background-color: #007bff;
+}
+
+
+.btns button.res{
+    color: white;
+   background-color:#fa1b1b;
+
+   
+}
